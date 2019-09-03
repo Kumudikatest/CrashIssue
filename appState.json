@@ -22,7 +22,7 @@
         "children": [],
         "isRemovable": true,
         "filePath": "CrashIssue/lambda.js",
-        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed indu\"});\n}",
+        "code": "exports.handler = function (event, context, callback) {\n\n    callback(null, { \"message\": \"Successfully executed indu\" });\n}",
         "config": {
           "runtime": "nodejs8.10",
           "handler": "handler",
@@ -30,7 +30,12 @@
           "memory": 128,
           "layers": []
         },
-        "triggers": []
+        "triggers": [
+          {
+            "resourceName": "apigusEast1TestAPIMyLambdaget",
+            "config": {}
+          }
+        ]
       }
     },
     "deletedFiles": [],
@@ -98,7 +103,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1567488713766
+    "lastSave": 1567488957659
   },
   "VCS_STATE": {
     "provider": "GitHub",
