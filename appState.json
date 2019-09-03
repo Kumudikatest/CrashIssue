@@ -30,7 +30,12 @@
           "memory": 128,
           "layers": []
         },
-        "triggers": []
+        "triggers": [
+          {
+            "resourceName": "apigusEast1TestAPIMyLambdaget",
+            "config": {}
+          }
+        ]
       }
     },
     "deletedFiles": [],
@@ -98,7 +103,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1567488448630
+    "lastSave": 1567488570213
   },
   "VCS_STATE": {
     "provider": "GitHub",
