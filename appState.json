@@ -22,7 +22,7 @@
         "children": [],
         "isRemovable": true,
         "filePath": "CrashIssue/lambda.js",
-        "code": "exports.handler = function (event, context, callback) {\n\n    callback(null, { \"message\": \"Successfully executed indu\" });\n}",
+        "code": "exports.handler = function (event, context, callback) {\n\n    callback(null, { \"message\": \"Successfully executed indunil\" });\n}",
         "config": {
           "runtime": "nodejs8.10",
           "handler": "handler",
@@ -103,7 +103,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1567488957659
+    "lastSave": 1567661402956
   },
   "VCS_STATE": {
     "provider": "GitHub",
